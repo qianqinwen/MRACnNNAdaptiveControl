@@ -1,2 +1,5 @@
-# MRACnNNAdaptiveControl
-Quadcopter Recovery Mission: Comparing MRAC Model-Based and NN Model-Free Adaptive Control
+# Quadcopter Recovery Mission: Comparing MRAC Model-Based and NN Model-Free Adaptive Control  
+NAVARCH 583 Adaptive Control held in 2024 Fall semester by Professor Sun Jing at the University of Michigan, Ann Arbor.  
+# Problem Statement
+  In this project we propose to analyze and compare the use of model-free and model-based adaptive control. This work considers a quadcopter that can be used to retrieve objects of a given mass. Adaptive control is an advantageous tool to enable the quadcopter to maintain stable control and flight that appropriately accounts for these variations in the system.  
+  However, it is difficult to construct or obtain an accurate mathematical model of the UAV especially in extreme environments. Rather than relying on the high-fidelity model under certain environment assumptions for model-based adaptive control, we linearize the model about an equilibrium point, specifically around hovering. We then further use the data from the simulated high-fidelity model to design a model-free adaptive control law. Here, we look to compare the performance of these two approaches and their ability to account for the varied mass throughout the trajectory of the quadcopter. These results provide insight to simplification methods that can be used in conditions of low online computational resources.
